@@ -16,9 +16,7 @@ export default function App() {
 
         <Routes>
 
-          {/* =================================================
-              MAIN DASHBOARD
-          ================================================= */}
+          {/* MAIN DASHBOARD */}
           <Route
             path="/"
             element={
@@ -28,9 +26,7 @@ export default function App() {
             }
           />
 
-          {/* =================================================
-              LMS
-          ================================================= */}
+          {/*  LMS */}
           <Route
             path="/lms"
             element={
@@ -40,9 +36,7 @@ export default function App() {
             }
           />
 
-          {/* =================================================
-              STUDENT DEVELOPMENT
-          ================================================= */}
+          {/* STUDENT DEVELOPMENT */}
           <Route
             path="/development"
             element={
