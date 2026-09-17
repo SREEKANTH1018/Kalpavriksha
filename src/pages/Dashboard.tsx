@@ -21,9 +21,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-10">
 
-      {/* =====================================================
-          WELCOME HERO
-      ====================================================== */}
+      {/* WELCOME HERO */}
       <section
         className="
           relative overflow-hidden
@@ -112,9 +110,7 @@ export default function Dashboard() {
       </section>
 
 
-      {/* =====================================================
-          STUDENT SNAPSHOT
-      ====================================================== */}
+      {/* STUDENT SNAPSHOT */}
       <section>
 
         <SectionHeading
@@ -165,9 +161,7 @@ export default function Dashboard() {
       </section>
 
 
-      {/* =====================================================
-          CONNECTED ECOSYSTEM
-      ====================================================== */}
+      {/* CONNECTED ECOSYSTEM */}
       <section>
 
         <SectionHeading
@@ -214,9 +208,7 @@ export default function Dashboard() {
       </section>
 
 
-      {/* =====================================================
-          QUICK ACCESS
-      ====================================================== */}
+      {/* QUICK ACCESS */}
       <section>
 
         <SectionHeading
@@ -254,9 +246,7 @@ export default function Dashboard() {
       </section>
 
 
-      {/* =====================================================
-          RECENT + UPCOMING
-      ====================================================== */}
+      {/* RECENT + UPCOMING*/}
       <section className="grid gap-6 xl:grid-cols-[1fr_420px]">
 
         {/* Recent activity */}
@@ -372,9 +362,7 @@ export default function Dashboard() {
 }
 
 
-/* ============================================================
-   COMPONENTS
-============================================================ */
+/* COMPONENTS */
 
 interface SectionHeadingProps {
   eyebrow: string;
